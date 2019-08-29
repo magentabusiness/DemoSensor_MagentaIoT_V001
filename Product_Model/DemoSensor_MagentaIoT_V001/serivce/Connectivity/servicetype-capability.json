@@ -1,0 +1,105 @@
+{
+    "services": [{
+        "serviceType": "Connectivity",
+        "description": "",
+        "commands": [],
+        "properties": [{
+                "propertyName": "rsrp",
+                "dataType": "decimal",
+                "required": true,
+                "min": -5000,
+                "max": 5000,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": "dBm",
+                "enumList": null
+            },
+            {
+                "propertyName": "rsrq",
+                "dataType": "decimal",
+                "required": false,
+                "min": -500,
+                "max": 500,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": null,
+                "enumList": null
+            },
+            {
+                "propertyName": "cellId",
+                "dataType": "int",
+                "required": false,
+                "min": 0,
+                "max": 268435455,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": null,
+                "enumList": null
+            },
+            {
+                "propertyName": "rssi",
+                "dataType": "decimal",
+                "required": false,
+                "min": 0,
+                "max": 310,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": null,
+                "enumList": null
+            },
+            {
+                "propertyName": "celevel",
+                "dataType": "int",
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": null,
+                "enumList": null
+            },
+            {
+                "propertyName": "sinr",
+                "dataType": "decimal",
+                "required": false,
+                "min": -200,
+                "max": 300,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": "dB",
+                "enumList": null
+            },
+            {
+                "propertyName": "snr",
+                "dataType": "decimal",
+                "required": false,
+                "min": -200,
+                "max": 300,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": "dB",
+                "enumList": null
+            },
+            {
+                "propertyName": "pci",
+                "dataType": "int",
+                "required": false,
+                "min": null,
+                "max": null,
+                "step": null,
+                "maxLength": null,
+                "method": "RE",
+                "unit": null,
+                "enumList": null
+            }
+        ],
+        "events": []
+    }]
+}

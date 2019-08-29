@@ -1,0 +1,33 @@
+{
+    "services": [{
+        "serviceType": "Battery",
+        "description": "",
+        "commands": [],
+        "properties": [{
+                "propertyName": "batteryLevel",
+                "dataType": "int",
+                "required": true,
+                "min": "0",
+                "max": "100",
+                "step": 1,
+                "maxLength": 0,
+                "method": "R",
+                "unit": "%",
+                "enumList": null
+            },
+            {
+                "propertyName": "batteryVoltage",
+                "dataType": "int",
+                "required": true,
+                "min": "0",
+                "max": "100000",
+                "step": 1,
+                "maxLength": 0,
+                "method": "R",
+                "unit": "mV",
+                "enumList": null
+            }
+        ],
+        "events": []
+    }]
+}

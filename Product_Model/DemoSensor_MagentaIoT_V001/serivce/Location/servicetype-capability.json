@@ -1,0 +1,33 @@
+{
+    "services": [{
+        "serviceType": "Location",
+        "description": "",
+        "commands": [],
+        "properties": [{
+                "propertyName": "longitude",
+                "dataType": "decimal",
+                "required": true,
+                "min": "-180",
+                "max": "180",
+                "step": 1,
+                "maxLength": 0,
+                "method": "R",
+                "unit": "°",
+                "enumList": null
+            },
+            {
+                "propertyName": "latitude",
+                "dataType": "decimal",
+                "required": true,
+                "min": "-90",
+                "max": "90",
+                "step": 1,
+                "maxLength": 0,
+                "method": "R",
+                "unit": "°",
+                "enumList": null
+            }
+        ],
+        "events": []
+    }]
+}

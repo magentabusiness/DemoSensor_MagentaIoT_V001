@@ -1,0 +1,77 @@
+{
+    "services": [{
+        "serviceType": "Temperature",
+        "description": "",
+        "commands": [{
+                "commandName": "SET_MEASURE_PERIOD",
+                "paras": [{
+                    "paraName": "value",
+                    "dataType": "int",
+                    "required": true,
+                    "min": 1,
+                    "max": 1000,
+                    "step": 1,
+                    "maxLength": 10,
+                    "unit": "minute",
+                    "enumList": null
+                }],
+                "responses": [{
+                    "responseName": "SET_MEASURE_PERIOD_RSP",
+                    "paras": [{
+                        "paraName": "result",
+                        "dataType": "int",
+                        "required": true,
+                        "min": -1000000,
+                        "max": 1000000,
+                        "step": 1,
+                        "maxLength": 10,
+                        "unit": null,
+                        "enumList": null
+                    }]
+                }]
+            },
+            {
+                "commandName": "SET_TRANSFER_PERIOD",
+                "paras": [{
+                    "paraName": "value",
+                    "dataType": "int",
+                    "required": true,
+                    "min": 1,
+                    "max": 1000,
+                    "step": 1,
+                    "maxLength": 10,
+                    "unit": "minute",
+                    "enumList": null
+                }],
+                "responses": [{
+                    "responseName": "SET_TRANSFER_PERIOD_RSP",
+                    "paras": [{
+                        "paraName": "result",
+                        "dataType": "int",
+                        "required": true,
+                        "min": -1000000,
+                        "max": 1000000,
+                        "step": 1,
+                        "maxLength": 10,
+                        "unit": null,
+                        "enumList": null
+                    }]
+                }]
+            }
+        ],
+
+        "properties": [{
+            "propertyName": "temperature",
+            "dataType": "decimal",
+            "required": true,
+            "min": "-100",
+            "max": "200",
+            "step": 1,
+            "maxLength": 0,
+            "method": "R",
+            "unit": "C",
+            "enumList": null
+        }],
+        "events": []
+    }]
+}

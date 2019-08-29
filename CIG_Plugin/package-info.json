@@ -1,0 +1,22 @@
+{
+    "specVersion":"1.0",
+    "fileName":"DemoSensor-MagentaIoT-V001",
+    "version":"1.0.0",
+    "deviceType":"DemoSensor",
+    "manufacturerName":"Magenta_IoT",
+    "model":"V001",
+    "description":"codec",
+    "platform":"linux",
+    "packageType":"CIGPlugin",
+    "date":"2019-08-29 14:16:59",
+	"ignoreList":[],
+    "bundles":[
+    {
+        "bundleName": "DemoSensor-MagentaIoT-V001",
+        "bundleVersion": "1.0.0",
+        "priority":5,
+        "fileName": "DemoSensor-MagentaIoT-V001-1.0.0.jar",
+        "bundleDesc":"",
+        "versionDesc":""
+    }]
+}

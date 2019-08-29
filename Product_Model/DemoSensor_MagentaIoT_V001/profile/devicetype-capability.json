@@ -1,0 +1,45 @@
+{
+    "devices": [{
+        "manufacturerId": "MagentaIoT",
+        "manufacturerName": "Magenta_IoT",
+        "model": "V001",
+        "protocolType": "LWM2M",
+        "deviceType": "DemoSensor",
+        "omCapability": {
+            "upgradeCapability": {
+                "supportUpgrade": false,
+                "upgradeProtocolType": "PCP"
+            },
+            "fwUpgradeCapability": {
+                "supportUpgrade": true,
+                "upgradeProtocolType": "LWM2M"
+            }
+        },
+        "serviceTypeCapabilities": [{
+                "serviceId": "Battery",
+                "serviceType": "Battery",
+                "option": "Mandatory"
+            },
+            {
+                "serviceId": "Connectivity",
+                "serviceType": "Connectivity",
+                "option": "Mandatory"
+            },
+            {
+                "serviceId": "Location",
+                "serviceType": "Location",
+                "option": "Mandatory"
+            },
+            {
+                "serviceId": "Temperature",
+                "serviceType": "Temperature",
+                "option": "Mandatory"
+            },
+            {
+                "serviceId": "Clock",
+                "serviceType": "Clock",
+                "option": "Mandatory"
+            }
+        ]
+    }]
+}
