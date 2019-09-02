@@ -9,4 +9,3 @@ Find more information in our [Quickstart Guide](https://magentabusiness.github.i
 
 [Messages](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/CIG_Plugin_Development?id=messages-in-the-example-plugin-demosensor_magentaiot_v001)  
 [Commands](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/CIG_Plugin_Development?id=commands-in-the-demo-plugin-demosensor_magentaiot_v001)  
-
