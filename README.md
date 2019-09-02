@@ -7,6 +7,6 @@ Find more information in our [Quickstart Guide](https://magentabusiness.github.i
 [Product Model](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/Device_Product_Profile_Development_Offline)  
 [CIG-Plugin](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/CIG_Plugin_Development)  
 
-[Messages](http://localhost:3000/#/./Advanced_Topics/CIG_Plugin_Development?id=messages-in-the-example-plugin-demosensor_magentaiot_v001)  
-[Commands](http://localhost:3000/#/./Advanced_Topics/CIG_Plugin_Development?id=commands-in-the-demo-plugin-demosensor_magentaiot_v001)  
+[Messages](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/CIG_Plugin_Development?id=messages-in-the-example-plugin-demosensor_magentaiot_v001)  
+[Commands](https://magentabusiness.github.io/IoT-Quickstart/#/./Advanced_Topics/CIG_Plugin_Development?id=commands-in-the-demo-plugin-demosensor_magentaiot_v001)  
 
